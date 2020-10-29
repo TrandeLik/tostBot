@@ -28,7 +28,7 @@ def getResult():
     return 'А сейчас будет унивирсальный тост для 4 часов ночи! \n\n' + ' '.join(chain) + '! Давайте выпьем!🥂'
 
 
-bot = telebot.TeleBot("1185596630:AAHTTg46RTI9xgwk47pz7zonuNZCbZoqLuI")
+bot = telebot.TeleBot("")
 keyboard = telebot.types.ReplyKeyboardMarkup()
 keyboard.row('🥂🥂🥂')
 
